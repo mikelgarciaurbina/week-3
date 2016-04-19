@@ -1,0 +1,110 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #aaa;
+}
+
+p {
+	margin: 8px 0;
+}
+
+.container {
+	background-color: #f5f5f5;
+}
+
+.header {
+	margin: 10px -3px;
+}
+
+.post-header {
+	background-color: #fff;
+	margin: 0 10px;
+	padding: 7px 0px;
+}
+
+.body {
+	background-color: #fff;
+	margin: 1px 10px 15px 10px;
+}
+
+.avatar {
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.avatar-bounty {
+	margin-right: 10px;
+}
+
+.comment-img {
+	float: left;
+}
+
+.money {
+	color: #f3ab4c;
+}
+
+.tag {
+	border: 1px solid #aaa;
+	font-size: 10px;
+	padding: 3px 6px;
+	color: #aaa;
+	margin-left: 4px;
+}
+
+.tag-special {
+	color: red;
+}
+
+.text {
+	color: #333;
+}
+
+.comment-button {
+	background-color: #fff;
+	border: 1px solid #2889d8;
+	color: #2889d8;
+	border-radius: 20px;
+	font-size: 12px;
+	padding: 3px 13px;
+	margin-bottom: 10px;
+}
+
+.content {
+	padding: 0 20px;
+}
+
+.likes, .comment, .all-comments {
+	margin-left: 19px;
+}
+
+.likes-first {
+	margin-top: 5px;
+}
+
+.comment {
+	margin-top: 10px;
+}
+
+.likes-comments-text {
+	margin-top: 3px;
+}
+
+.likes, .all-comments, .comment {
+	font-size: 10px;
+}
+
+.p-comment {
+	margin: 0 30px;
+}
+
+.input {
+	margin-bottom: 10px;
+	width: 85%;
+	padding: 9px;
+	background-color: #ddd;
+	border: 0;
+}
+
+.p-special {
+	margin: 7px 30px 5px 0;
+}
