@@ -1,0 +1,8 @@
+.container {
+	margin: 0 40px;
+}
+ 
+[class*="span"] {
+	display: inline;
+	float: left;
+}
