@@ -1,0 +1,1 @@
+function averageColon(a){a=a.split(":");a=a.reduce(function(a,b){return parseInt(a)+parseInt(b)})/a.length;console.log(a)}var numbers="80:70:90:100";averageColon(numbers);
