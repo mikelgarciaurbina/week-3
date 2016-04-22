@@ -60,14 +60,14 @@ Game.prototype.play = function(){
         if(userInput === "exit"){
         	console.log("Goodbye");
         }else if(userInput === "N" || userInput === "S" || userInput === "E" || userInput === "W"){
-        	console.log(game.move(userInput))
-        		if(game.finished() === true){
-        			console.log("Congrats, you win!")
-        		}else{
-        			var options = {prompt: "\n> " };
+        	console.log(game.move(userInput));
+    		if(game.finished() === true){
+    			console.log("Congrats, you win!")
+    		}else{
+    			var options = {prompt: "\n> " };
 
-	                read(options, processUserInput);
-        		}
+                read(options, processUserInput);
+    		}
         }else {
             var options = {prompt: "\n>" };
 
